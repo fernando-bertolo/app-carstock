@@ -1,9 +1,11 @@
-export default function AuthLayout({ children }: { children: React.ReactNode }) {
+export default function AuthLayout({ 
+  children 
+}: { 
+  children: React.ReactNode 
+}) {
   return (
-    <html lang="pt-BR">
-      <body>
-        {children}
-      </body>
-    </html>
+    <div className="min-h-screen bg-gray-50">
+      {children}
+    </div>
   )
 }
