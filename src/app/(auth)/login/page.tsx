@@ -40,7 +40,7 @@ export default function LoginPage() {
             <Car className="h-8 w-8 text-white" />
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
-            Bem-vindo ao AutoStock
+            Bem-vindo ao CarStock
           </h2>
           <p className="text-gray-600">
             Faça login para acessar o sistema de gestão de veículos
@@ -156,7 +156,7 @@ export default function LoginPage() {
 
         <div className="text-center">
           <p className="text-xs text-gray-500">
-            © 2025 AutoStock. Todos os direitos reservados.
+            © 2025 CarStock. Todos os direitos reservados.
           </p>
         </div>
       </div>
